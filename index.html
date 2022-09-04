@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>web-site-aziz</title>
+<!--css bootstrap-->
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="assets/css/bootstrap.css">
+<link rel="stylesheet" href="assets/css/animate.css">
+<link rel="stylesheet" href="assets/css/normalize.css">
+<link rel="stylesheet" href="assets/css/custom.css">
+<link rel="stylesheet" href="assets/css/normalize.css">
+<link rel="stylesheet" href="assets/css/media.css">
+<link rel="stylesheet" href="assets/css/owl.carousel.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--font-->
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<!--js-->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+   <script>
+      (() => {
+        "use strict";
+        var e = {
+            d: (o, t) => {
+              for (var r in t)
+                e.o(t, r) &&
+                  !e.o(o, r) &&
+                  Object.defineProperty(o, r, { enumerable: !0, get: t[r] });
+            },
+            o: (e, o) => Object.prototype.hasOwnProperty.call(e, o),
+            r: (e) => {
+              "undefined" != typeof Symbol &&
+                Symbol.toStringTag &&
+                Object.defineProperty(e, Symbol.toStringTag, {
+                  value: "Module",
+                }),
+                Object.defineProperty(e, "__esModule", { value: !0 });
+            },
+          },
+          o = {};
+        function t() {
+          const e = { lat: -25.344, lng: 131.036 },
+            o = new google.maps.Map(document.getElementById("map"), {
+              zoom: 4,
+              center: e,
+            });
+          new google.maps.Marker({ position: e, map: o });
+        }
+        e.r(o), e.d(o, { initMap: () => t });
+        var r = window;
+        for (var n in o) r[n] = o[n];
+        o.__esModule && Object.defineProperty(r, "__esModule", { value: !0 });
+      })();
+    </script>
+</head>
+<body>
+<header id="haeder">
+<div class="topbar">
+<div class="container">
+<div class="row">
+<!--Contact-topbar -->
+<div class="col-md-12 col-lg-8">
+<ul class="Contact-topbar">
+<li><i class="fa fa-phone"></i> 00970562250001</li>
+<li><i class="fa fa-envelope"></i> adv.moh945@gmail.com</li>
+</ul>
+</div>
+</div></div></div>
+<nav>
+<div class="container">
+<div class="row">
+<div class="col-md-2"><label id="icon"><i class="fa fa-bars"></i></label>
+<div class="logo"><a href="index.html"><img src="images/logo.png" alt="logo"></a></div> </div>
+<div class="col-md-10">
+<!--menu-->
+<div class="menu">
+<ul>
+<li><a href="#">HOME</a></li>
+<li><a href="#">ABOUT US</a></li>
+<li><a href="#">OUR PRODUCTS</a></li>
+<li><a href="#">MANAGEMENT</a></li>
+<li><a href="#">CONTACT US</a></li>
+</ul>
+</div>
+</div>
+</div></div></nav>
+</header>
+<!--slider section-->
+<section id="home" class="slider">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div class="container">
+<!--slider1-->
+<div class="carousel-inner">
+ <div class="carousel-item active">
+<div class="row">
+<div class="col-md-12 col-lg-7 os-animation" data-os-animation="zoomInLeft" data-os-animation-delay="0.3s">
+<img class="icon-sl" src="images/sl1.svg" alt="" />
+</div>
+<div class="col-md-12 col-lg-5  os-animation" data-os-animation="zoomInLeft" data-os-animation-delay="0.3s">
+<h2>JUICES<br>& BEVERAGES</h2>
+<p>Long established fact that a reader will be distracted by the readable content</p>
+<button><a href="#about">LEARN MORE </a></button>
+</div>
+</div>
+</div>
+<!--slider2-->
+<div class="carousel-item">
+<div class="row">
+<div class="col-md-12 col-lg-7 os-animation" data-os-animation="zoomInLeft" data-os-animation-delay="0.3s">
+<img class="icon-sl" src="images/sl1.svg" alt="" />
+</div>
+<div class="col-md-12 col-lg-5  os-animation" data-os-animation="zoomInLeft" data-os-animation-delay="0.3s">
+<h2>JUICES<br>& BEVERAGES</h2>
+<p>Long established fact that a reader will be distracted by the readable content</p>
+<button><a href="#about">LEARN MORE </a></button>
+</div>
+</div>
+</div>
+<!--slider3-->
+<div class="carousel-item">
+<div class="row">
+<div class="col-md-12 col-lg-7 os-animation" data-os-animation="zoomInLeft" data-os-animation-delay="0.3s">
+<img class="icon-sl" src="images/sl1.svg" alt="" />
+</div>
+<div class="col-md-12 col-lg-5  os-animation" data-os-animation="zoomInLeft" data-os-animation-delay="0.3s">
+<h2>JUICES<br>& BEVERAGES</h2>
+<p>Long established fact that a reader will be distracted by the readable content</p>
+<button><a href="#about">LEARN MORE </a></button>
+</div>
+</div>
+</div>
+  </div>
+</div>
+<!-- Carousel controls -->
+<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+<span class="carousel-control-prev-icon"></span></a>
+<a class="carousel-control-next" href="#myCarousel" data-slide="next">
+<span class="carousel-control-next-icon"></span></a>
+</div>
+</section>
+<!--about us-->
+<section id="about" class="about">
+<div class="container">
+<div class="row">
+<div class="col-md-12 col-lg-6  os-animation" data-os-animation="zoomInLeft" data-os-animation-delay="0.3s">
+<h2> About Olam International Company</h2>
+<p>Ingredients is devoted to providing a wide range of Fine and Bulk Ingredients to the Food processing industry in the GCC, accompanied by the best possible service. This division considers itself to be the customers’ partners in product development and their satisfaction is the primary goal. </p>
+<a href="#">About Us &gt;</a>
+</div>
+<div class="col-md-12 col-lg-6 os-animation" data-os-animation="zoomInLeft" data-os-animation-delay="0.3s">
+<img class="about-img" src="images/1614994193_img13.jpg" alt="" /></div>
+</div>
+</div>
+</section>
+<!--Our Products-->
+<section id="Products" class="Products">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h2>Our Products</h2>
+<p>We specialise in intelligent & effective Search and believes in the power of partnerships to grow business.</p>
+<span class="span1"></span>
+</div>
+<div class="col-md-12">
+<div id="owl-demo"> 
+<div class="item box-Products">
+<div><a href="post.html" title="title title title"><img src="images/1614994193_img13.jpg" alt=""></a></div>
+<h4><a href="post.html" title="title title title">title title title </a</h4>
+<p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</p> <a href="#">READ MORE &gt;</a>
+</div>
+<div class="item box-Products">
+<div><a href="post.html" title="title title title"><img src="images/1614994193_img13.jpg" alt=""></a></div>
+<h4><a href="post.html" title="title title title">title title title </a</h4>
+<p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</p> <a href="#">READ MORE &gt;</a>
+</div>
+<div class="item box-Products">
+<div><a href="post.html" title="title title title"><img src="images/1614994193_img13.jpg" alt=""></a></div>
+<h4><a href="post.html" title="title title title">title title title </a</h4>
+<p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</p> <a href="#">READ MORE &gt;</a>
+</div>
+<div class="item box-Products">
+<div><a href="post.html" title="title title title"><img src="images/1614994193_img13.jpg" alt=""></a></div>
+<h4><a href="post.html" title="title title title">title title title </a</h4>
+<p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</p> <a href="#">READ MORE &gt;</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="BeNatural" class="BeNatural">
+<div class="container">
+<div class="row">
+<div class="col-md-5">
+<img src="images/1614995305_img11.jpg" alt="">
+</div>
+<div class="col-md-7 BeNatural-r">
+<h2><i class="fa fa-bookmark"></i> Be Natural</h2>
+<div>
+<h4>Our Mission</h4>
+<p>OLAM International has come a long way in the past decade With strengths such as, trained & dedicated staff of sales managers from multilingual and multicultural backgrounds, trained in different branches of food processing who provide quality work.</p>
+</div>
+<div>
+<h4>Our Mission</h4>
+<p>OLAM International has come a long way in the past decade With strengths such as, trained & dedicated staff of sales managers from multilingual and multicultural backgrounds, trained in different branches of food processing who provide quality work.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="contact" id="contact">
+<div class="container">
+<div class="row">
+<div class="col-md-12 col-lg-6">
+<div class="h2-contact os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.5s"><h2><i class="fa fa-envelope-o "></i>  CONTACT US</h2></div>
+<span></span>
+<form id="contact-form" class="contact-form os-animation" data-os-animation="bounceIn" data-os-animation-delay="0.3s" action="contact.php" method="post">
+<input type="text" name="name" placeholder="Name">
+<input type="text" name="from" placeholder="Email address">
+<input type="tel" name="telephone" placeholder="Please enter your phone">
+<input type="text" name="subject" placeholder="Subject">
+<textarea name="Message" placeholder="Your message"></textarea>
+<button  type="submit">Send message</button>
+</form>
+</div>
+<div class="col-md-6">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1793270.4320794072!2d35.7598979907389!3d28.615333391853643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15abd1970d98d239%3A0x56616eeb90fea93a!2z2KjYrNiv2Ycg2KfZhNiz2LnZiNiv2YrYqQ!5e0!3m2!1sar!2s!4v1657445576551!5m2!1sar!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>									
+</div>
+</div>
+</section>
+
+
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-md-4"><img class="logo" src="images/logo-footer.png" alt=""><p class="about-f"><a href="#">About Us &gt;</a></p></div>
+<div class="col-md-12 col-lg-4">
+<h2>Quick Links</h2>
+<ul class="link-q">
+<li><a href="#">HOME</a></li>
+<li><a href="#">ABOUT US</a></li>
+<li><a href="#">OUR PRODUCTS</a></li>
+<li><a href="#">MANAGEMENT</a></li>
+<li><a href="#">CONTACT US</a></li>
+</ul>
+</div>
+<div class="col-md-4">
+<h2>Get in Touch</h2>
+<ul class="Touch">
+<li><i class="fa fa-map-marker"></i> Al Khulaifi Building, 4th floor, Office No 24, Bin Khaldoon Street, Hawally, Kuwait</li>
+<li><i class="fa fa-envelope"></i> adv.moh945@gmail.com</li>
+<li><i class="fa fa-phone"></i> 00970562250001</li>
+</ul>
+<ul class="social-f">
+<li><a href="https://www.facebook.com/nawajham9" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
+<li><a href="https://twitter.com/nawajham9" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
+<li><a href="https://www.instagram.com/nawajham9" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
+<li><a href="https://www.youtube.com/nawajham9" target="_blank" title="youtube"><i class="fa fa-youtube"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="copyright">
+<div class="container">
+<div class="row">
+<div class="col-md-12 col-lg-6"><h3><a href="index.html"> Copyright 	&#169; 2021 website</a></h3></div>
+<div class="col-md-12 col-lg-6"><h3><a href="https://www.nawjh.site" target="_blank">by : Mohamed Alnawjha</a></h3></div>
+</div>
+</div>
+</div>
+</footer>
+<script>
+  // Initialize and add the map
+  function initMap() {
+    // The location of Uluru
+    const uluru = { lat: -25.344, lng: 131.036 };
+    // The map, centered at Uluru
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 4,
+      center: uluru,
+    });
+    // The marker, positioned at Uluru
+    const marker = new google.maps.Marker({
+      position: uluru,
+      map: map,
+    });
+  }
+</script>
+<script>
+    $(document).ready(function() {
+      $("#owl-demo").owlCarousel({
+        autoPlay: 3000,
+        items : 3,
+        itemsDesktop : [1199,2],
+        itemsDesktopSmall : [2],
+        itemsSmall : [1]
+
+      });
+
+    });
+</script>
+<script>
+    $(document).ready(function(){
+    $("#icon") .click(function(){
+    $("ul").toggleClass("show");
+      });
+    });
+</script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="assets/js/fastclick.js"></script>
+<script src="assets/js/scroll.js"></script>
+<script src="assets/js/fixed-responsive-nav.js"></script>
+<script src="assets/js/jquery.bxslider.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<script src="assets/js/owl.carousel.js"></script>
+
+</body>
+</html>

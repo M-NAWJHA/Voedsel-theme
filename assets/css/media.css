@@ -1,0 +1,72 @@
+@media screen and (max-width: 900px) {
+
+#haeder{
+        text-align: center;
+
+        }
+
+#haeder .topbar .social-topbar li{
+        line-height: 40px;
+    }
+    
+#haeder .topbar .Contact-topbar{
+        display: block;
+        margin-top: 20px;
+    }
+             
+#haeder .topbar .Contact-topbar li{
+        display: block;
+        line-height: 30px;
+        text-align: left;
+    }
+
+nav{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    }
+nav #icon{
+        display: block;
+    }
+
+nav .menu ul{
+        position: relative;
+        background-color: #fff;
+        margin-top: 0px;
+        margin-right: 0;
+        padding-right: 5%;
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        z-index: 100;
+        left: -200%;
+
+    }
+nav .menu ul li{
+        height: 50px;
+        width: 100%;
+        float: none;
+        display: block;
+        line-height: 50px;
+        text-align: center;
+        color: #fff;
+    }
+nav .menu ul li:hover{
+        background-color:unset;
+        color: #01C5C4;
+        transition: all 0.5s;
+    }
+nav .menu ul.show{
+    left: 0;
+    transition: all 0.5s;
+    }
+
+    .slider{
+        padding-top: 200px;
+  
+    }
+    .Products #owl-demo .item{
+        margin: 1px;
+    }
+
+}
